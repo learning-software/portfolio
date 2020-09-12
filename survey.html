@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+    <link rel="icon" href="flash.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js.js"></script>
+</head>
+
+<body onload="loading()">
+
+    <div id="loading"></div>
+
+    <nav class="container blank">
+        <div class="navbar back navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar blue"></span>
+                    <span class="icon-bar blue"></span>
+                    <span class="icon-bar blue"></span>
+                </button>
+                <a href="fp.html" class="navbar-brand">My Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="image.html"><span class="glyphicon glyphicon-picture"></span> Images</a></li>
+                    <li><a href="skills.html"><span class="glyphicon glyphicon-user"></span> Skills</a></li>
+                    <li><a href="survey.html"><span class="glyphicon glyphicon-log-in"></span> Survey</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <section class="container rotate">
+            <div class="col-md-4">
+                <h2><strong>Contact: </strong></h2><br><br>
+                <div>
+                    <i class="fa fa-2x fa-envelope"></i>
+                    <div class="block">
+                        <h3>Email: </h3>
+                        <p>priyanshudutta111@gmail.com</p>
+                    </div>
+                </div><br><br>
+                <div>
+                    <i class="fa fa-2x fa-phone"></i>
+                    <div class="block">
+                        <h3>Phone: </h3>
+                        <p>850730896</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <h2><strong>Survey Form</strong></h2><br>
+                <form action="https://script.google.com/macros/s/AKfycbz3zA9Mw3rWNKy-DbpCk5ZH7gE99Uh_FmxngNxtRmVvAoBZczU/exec" id="foo">
+                    <div class="form-group col-md-6">
+                        <input type="text" name="name" placeholder="Name" id="fname" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" name="contact" placeholder="Contact" id="contact" class="form-control">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input type="email" name="email" placeholder="Email" id="email" class="form-control">
+                    </div>
+
+                    <div class="form-group col-md-12 ">
+                        <textarea name="msg" placeholder="Convey your message here" rows="7" id="msg" class="form-control"></textarea>
+                    </div>
+                    <button class="btnn col-md-3" onclick="submit()">Send</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer class="back footer center ">
+        <a href="https://www.facebook.com/bongboy17 " target="blank ">
+            <i class="fa fa-2x fa-facebook-official "></i>
+        </a>
+        <a href="https://www.twitter.com/bonggboy17 " target="blank ">
+            <i class="fa fa-2x fa-twitter "></i>
+        </a>
+        <a href="https://www.instagram.com/bonggboy17 " target="blank ">
+            <i class="fa fa-2x fa-instagram "></i>
+        </a>
+    </footer>
+    <script src="js.js "></script>
+</body>
+
+</html>

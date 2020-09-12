@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+    <link rel="icon" href="flash.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="lightbox.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="lightbox-plus-jquery.js"></script>
+
+</head>
+
+<body onload="loading()">
+
+    <div id="loading"></div>
+
+    <nav class="container blank">
+        <div class="navbar back navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar blue"></span>
+                    <span class="icon-bar blue"></span>
+                    <span class="icon-bar blue"></span>
+                </button>
+                <a href="fp.html" class="navbar-brand">My Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="image.html"><span class="glyphicon glyphicon-picture"></span> Images</a></li>
+                    <li><a href="skills.html"><span class="glyphicon glyphicon-user"></span> Skills</a></li>
+                    <li><a href="survey.html"><span class="glyphicon glyphicon-log-in"></span> Survey</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <div id="background">
+            <div id="ibanner">
+                <h1>Welcome to my portfolio!</h1>
+            </div>
+        </div>
+
+        <section class="container-fluid">
+            <aside class="col-md-4">
+                <div class="thumbnail">
+                    <a href="ash.jpg" data-lightbox="Ash" data-title="My Picture">
+                        <img src="ash.jpg" alt="My pic here">
+                    </a>
+                    <h2>Priyanshu Dutta</h2>
+                </div>
+            </aside>
+
+            <aside class="col-md-8 thumbnail">
+                <h2> <span class="mid">About</span></h2>
+                <p class="para">Hii! I am Priyanshu Dutta. I am to be a <em>"future engineering"</em>.I am pursuing B.Tech degree in <em><u>Bhagalpur College of Engineering</u></em> with <em><u>Electrons and Communication Engineeering branch</u></em>.</p>
+                <p class="para">I am a learner in this field of software developer but I will definately emerge as a professsional by learing more and more. I already gained knowledge of shomewhat full-stack web development. I had mastered in HTML, CSS, Bootstrap frameworks,
+                    Javascript interactivity. I also learned SQL as DML (Database Management Language) and php as scripting language.</p>
+            </aside>
+        </section>
+
+        <div class="container-fluid">
+            <aside class="col-md-6  flip">
+                <h2><span class="mid">Education</span></h2><br><br>
+                <dl>
+                    <dt>Bachelor of Technology</dt>
+                    <dd class="sky "> Bhagalpur College of Engineering</dd>
+                    <dd>Electronics and Communication Engineering</dd>
+                    <dd><span class="glyphicon glyphicon-calendar "></span> 02/09/2019 - present</dd>
+                    <dd><span class="glyphicon glyphicon-map-marker "></span> Bhagalpur</dd>
+                    <dt>  Senior Secondary</dt>
+                    <dd class="sky "> Kendriya Vidyalaya</dd>
+                    <dd><span class="glyphicon glyphicon-calendar "></span> 17/06/2016 - 15/02/2018</dd>
+                    <dd><span class="glyphicon glyphicon-map-marker "></span> Bihar</dd>
+                    <dt>  Higher Secondary</dt>
+                    <dd class="sky "> Kendriya Vidyalaya</dd>
+                    <dd><span class="glyphicon glyphicon-calendar "></span> 03/09/2007 - 14/02/2016</dd>
+                    <dd><span class="glyphicon glyphicon-map-marker "></span> Bihar</dd>
+                </dl>
+            </aside>
+
+            <aside class="col-md-6 flip">
+                <h2><span class="mid">Certificates</span></h2><br><br>
+                <dl>
+                    <dt>Coursera</dt>
+                    <dd class="sky ">Front-end Web Development</dd>
+                    <dd>HTML, CSS, Javascript, Bootstrap 3 | Intermediate</dd>
+                    <dd><span class="glyphicon glyphicon-calendar "></span> August 2020</dd>
+                    <dt>Progate</dt>
+                    <dd class="sky ">Python course</dd>
+                    <dd>Python | Basics</dd>
+                    <dd><span class="glyphicon glyphicon-calendar "></span> July 2020</dd>
+                    <dt>Progate</dt>
+                    <dd class="sky "> Java</dd>
+                    <dd>Java | Basics</dd>
+                    <dd><span class="glyphicon glyphicon-calendar "></span> June 2020</dd>
+                    <dt>Internshala</dt>
+                    <dd class="sky ">Full-Stack Web Development</dd>
+                    <dd>HTML, CSS, Javascript, Bootstrap 3, SQL, PHP | Basics</dd>
+                    <dd><span class="glyphicon glyphicon-calendar "></span> April-May 2020</dd>
+                </dl>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="back footer center ">
+        <a href="https://www.facebook.com/bongboy17 " target="blank ">
+            <i class="fa fa-2x fa-facebook-official "></i>
+        </a>
+        <a href="https://www.twitter.com/bonggboy17 " target="blank ">
+            <i class="fa fa-2x fa-twitter "></i>
+        </a>
+        <a href="https://www.instagram.com/bonggboy17 " target="blank ">
+            <i class="fa fa-2x fa-instagram "></i>
+        </a>
+    </footer>
+    <script src="js.js "></script>
+</body>
+
+</html>

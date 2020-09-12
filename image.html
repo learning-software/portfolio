@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+    <link rel="icon" href="flash.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="lightbox.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="lightbox-plus-jquery.js"></script>
+    <script src="js.js"></script>
+    <style>
+        .container-fluid {
+            margin-top: 90px;
+        }
+        
+        body {
+            background: rgba(0, 0, 0, 0.9)
+        }
+    </style>
+</head>
+
+<body onload="loading()">
+
+    <div id="loading"></div>
+
+    <nav class="container blank">
+        <div class="navbar back navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar blue"></span>
+                    <span class="icon-bar blue"></span>
+                    <span class="icon-bar blue"></span>
+                </button>
+                <a href="fp.html" class="navbar-brand">My Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="image.html"><span class="glyphicon glyphicon-picture"></span> Images</a></li>
+                    <li><a href="skills.html"><span class="glyphicon glyphicon-user"></span> Skills</a></li>
+                    <li><a href="survey.html"><span class="glyphicon glyphicon-log-in"></span> Survey</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <div class="container-fluid">
+            <aside class="col-md-4 col-md-offset-1">
+                <div class="thumbnail">
+                    <a href="pikachu.png" data-lightbox="ash" data-title="Pikachu">
+                        <img src="pikachu.png" alt="Pikachu">
+                    </a>
+                    <h1 class="center">Pikachu</h1>
+                </div>
+
+            </aside>
+
+            <aside class="col-md-4 col-md-offset-2">
+                <div class="thumbnail">
+                    <a href="togepi.png" data-lightbox="ash" data-title="Flash">
+                        <img src="togepi.png" alt="Flash">
+                    </a>
+                    <h1 class="center">Flash</h1>
+                </div>
+            </aside>
+        </div>
+
+        <div class="container-fluid">
+            <aside class="col-md-4 col-md-offset-1">
+                <div class="thumbnail">
+                    <a href="doremon.jpg" data-lightbox="ash" data-title="Doraemon">
+                        <img src="doremon.jpg" alt="Doraemon">
+                    </a>
+                    <h1 class="center"> Doraemon</h1>
+                </div>
+
+            </aside>
+
+            <aside class="col-md-4 col-md-offset-2">
+                <div class="thumbnail">
+                    <a href="shinchan.png" data-lightbox="ash" data-title="Shinchan">
+                        <img src="shinchan.png" alt="Shinchan">
+                    </a>
+                    <h1 class="center"> Shinchan</h1>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="back footer center ">
+        <a href="https://www.facebook.com/bongboy17 " target="blank ">
+            <i class="fa fa-2x fa-facebook-official "></i>
+        </a>
+        <a href="https://www.twitter.com/bonggboy17 " target="blank ">
+            <i class="fa fa-2x fa-twitter "></i>
+        </a>
+        <a href="https://www.instagram.com/bonggboy17 " target="blank ">
+            <i class="fa fa-2x fa-instagram "></i>
+        </a>
+    </footer>
+    <script src="js.js "></script>
+</body>
+
+</html>
